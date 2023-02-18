@@ -13,6 +13,7 @@
 		FCADA2BC29A144B900509E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCADA2BA29A144B900509E0C /* Main.storyboard */; };
 		FCADA2BE29A144BA00509E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCADA2BD29A144BA00509E0C /* Assets.xcassets */; };
 		FCADA2C129A144BA00509E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCADA2BF29A144BA00509E0C /* LaunchScreen.storyboard */; };
+		FCADA2CA29A16D1100509E0C /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = FCADA2C829A14D0E00509E0C /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FCADA2BD29A144BA00509E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCADA2C029A144BA00509E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCADA2C229A144BA00509E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCADA2C829A14D0E00509E0C /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FCADA2B329A144B900509E0C /* xylophone */ = {
 			isa = PBXGroup;
 			children = (
+				FCADA2C829A14D0E00509E0C /* Sounds */,
 				FCADA2B429A144B900509E0C /* AppDelegate.swift */,
 				FCADA2B629A144B900509E0C /* SceneDelegate.swift */,
 				FCADA2B829A144B900509E0C /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCADA2CA29A16D1100509E0C /* Sounds in Resources */,
 				FCADA2C129A144BA00509E0C /* LaunchScreen.storyboard in Resources */,
 				FCADA2BE29A144BA00509E0C /* Assets.xcassets in Resources */,
 				FCADA2BC29A144B900509E0C /* Main.storyboard in Resources */,
