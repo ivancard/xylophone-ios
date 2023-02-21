@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     private func playSound(soundName: String) {
@@ -22,10 +21,18 @@ class ViewController: UIViewController {
         audioPlayer?.play()
     }
     
-    @IBAction func cKey(_ sender: UIButton) {
-//        playSound(soundName: sender.currentTitle!)
+    @IBAction func pressKey(_ sender: UIButton) {
+        
+        sender.alpha = 0.8
+        
+        
+        
         guard let key = sender.titleLabel?.text else {return}
         playSound(soundName: key)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                    sender.alpha = 1
+        }
     }
     
 }
